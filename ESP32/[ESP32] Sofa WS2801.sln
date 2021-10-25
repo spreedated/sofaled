@@ -19,10 +19,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BluetoothSerial-2.0.0", "..
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{C00DAFA7-DCF8-455B-A8F5-C514D8D592BC}"
 	ProjectSection(SolutionItems) = preProject
+		[ESP32] Sofa WS2801\Docs\Breakout.md = [ESP32] Sofa WS2801\Docs\Breakout.md
 		[ESP32] Sofa WS2801\Docs\OneWire_Error.md = [ESP32] Sofa WS2801\Docs\OneWire_Error.md
 		[ESP32] Sofa WS2801\Docs\Pinout.md = [ESP32] Sofa WS2801\Docs\Pinout.md
-		[ESP32] Sofa WS2801\Docs\Wiring.md = [ESP32] Sofa WS2801\Docs\Wiring.md
 		[ESP32] Sofa WS2801\Docs\Wiring_TempSensor.md = [ESP32] Sofa WS2801\Docs\Wiring_TempSensor.md
+		[ESP32] Sofa WS2801\Docs\Wiring_WS2801.md = [ESP32] Sofa WS2801\Docs\Wiring_WS2801.md
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DallasTemperature-3.9.0", "..\..\..\..\Arduino\libraries\DallasTemperature\DallasTemperature-3.9.0.vcxitems", "{C38CFB5B-5EBF-4D44-930B-EFFCE146ABF1}"
