@@ -57,7 +57,7 @@ const char* BLUETOOTH_NAME = "Sofa LED";
 //# ### #
 
 //Temperature Sensor
-const int ONE_WIRE_BUS = 12;
+const int ONE_WIRE_BUS = 14;
 const float SHUTDOWN_TEMP_C = 45.0f;
 //# ### #
 
