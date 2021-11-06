@@ -5,18 +5,6 @@ VisualStudioVersion = 17.0.31815.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[ESP32] Sofa WS2801", "[ESP32] Sofa WS2801\[ESP32] Sofa WS2801.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_WS2801_Library-1.1.0", "..\..\..\Arduino\libraries\Adafruit_WS2801_Library\Adafruit_WS2801_Library-1.1.0.vcxitems", "{FFE5ADC0-D108-4FDE-A050-266306E5E1A8}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SPI-2.0.0", "..\..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.0\libraries\SPI\SPI-2.0.0.vcxitems", "{96B58C28-4DD3-4B0E-8C74-CF944B51B8C8}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arduino_557715-2.5.0", "..\..\..\Arduino\libraries\arduino_557715\arduino_557715-2.5.0.vcxitems", "{8F00B10F-A745-4459-8E9F-548D824D1C29}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArduinoJson-6.18.5", "..\..\..\Arduino\libraries\ArduinoJson\ArduinoJson-6.18.5.vcxitems", "{6A7CFCF2-4597-4D59-A3D4-53C3432FA484}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EEPROM-2.0.0", "..\..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.0\libraries\EEPROM\EEPROM-2.0.0.vcxitems", "{5C3DA3EA-A237-4405-B5BA-247EEC6E3676}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BluetoothSerial-2.0.0", "..\..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.0\libraries\BluetoothSerial\BluetoothSerial-2.0.0.vcxitems", "{9F56A97E-3B48-4AF7-874C-FBEDA4756B7D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{C00DAFA7-DCF8-455B-A8F5-C514D8D592BC}"
 	ProjectSection(SolutionItems) = preProject
 		[ESP32] Sofa WS2801\Docs\Breakout.md = [ESP32] Sofa WS2801\Docs\Breakout.md
@@ -30,12 +18,40 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DallasTemperature-3.9.0", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OneWire-2.3.5", "..\..\..\..\Arduino\libraries\OneWire\OneWire-2.3.5.vcxitems", "{1860E50D-3B94-497C-A63F-C9AB12E13970}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SPI-2.0.0", "..\..\..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.0\libraries\SPI\SPI-2.0.0.vcxitems", "{96B58C28-4DD3-4B0E-8C74-CF944B51B8C8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_WS2801_Library-1.1.0", "..\..\..\..\Arduino\libraries\Adafruit_WS2801_Library\Adafruit_WS2801_Library-1.1.0.vcxitems", "{FFE5ADC0-D108-4FDE-A050-266306E5E1A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EEPROM-2.0.0", "..\..\..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.0\libraries\EEPROM\EEPROM-2.0.0.vcxitems", "{5C3DA3EA-A237-4405-B5BA-247EEC6E3676}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArduinoOTA-2.0.0", "..\..\..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.0\libraries\ArduinoOTA\ArduinoOTA-2.0.0.vcxitems", "{29DBA9E1-6094-4B74-80C5-2E6B22FC146B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BluetoothSerial-2.0.0", "..\..\..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.0\libraries\BluetoothSerial\BluetoothSerial-2.0.0.vcxitems", "{9F56A97E-3B48-4AF7-874C-FBEDA4756B7D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArduinoJson-6.18.5", "..\..\..\..\Arduino\libraries\ArduinoJson\ArduinoJson-6.18.5.vcxitems", "{6A7CFCF2-4597-4D59-A3D4-53C3432FA484}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arduino_557715-2.5.0", "..\..\..\..\Arduino\libraries\arduino_557715\arduino_557715-2.5.0.vcxitems", "{8F00B10F-A745-4459-8E9F-548D824D1C29}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		..\..\..\..\Arduino\libraries\OneWire\OneWire-2.3.5.vcxitems*{1860e50d-3b94-497c-a63f-c9ab12e13970}*SharedItemsImports = 9
+		..\..\..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.0\libraries\ArduinoOTA\ArduinoOTA-2.0.0.vcxitems*{29dba9e1-6094-4b74-80c5-2e6b22fc146b}*SharedItemsImports = 9
+		..\..\..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.0\libraries\EEPROM\EEPROM-2.0.0.vcxitems*{5c3da3ea-a237-4405-b5ba-247eec6e3676}*SharedItemsImports = 9
+		..\..\..\..\Arduino\libraries\ArduinoJson\ArduinoJson-6.18.5.vcxitems*{6a7cfcf2-4597-4d59-a3d4-53c3432fa484}*SharedItemsImports = 9
+		..\..\..\..\Arduino\libraries\arduino_557715\arduino_557715-2.5.0.vcxitems*{8f00b10f-a745-4459-8e9f-548d824d1c29}*SharedItemsImports = 9
+		..\..\..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.0\libraries\SPI\SPI-2.0.0.vcxitems*{96b58c28-4dd3-4b0e-8c74-cf944b51b8c8}*SharedItemsImports = 9
+		..\..\..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.0\libraries\BluetoothSerial\BluetoothSerial-2.0.0.vcxitems*{9f56a97e-3b48-4af7-874c-fbeda4756b7d}*SharedItemsImports = 9
 		..\..\..\..\Arduino\libraries\DallasTemperature\DallasTemperature-3.9.0.vcxitems*{c38cfb5b-5ebf-4d44-930b-effce146abf1}*SharedItemsImports = 9
+		..\..\..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.0\libraries\ArduinoOTA\ArduinoOTA-2.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\..\..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.0\libraries\BluetoothSerial\BluetoothSerial-2.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\..\..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.0\libraries\EEPROM\EEPROM-2.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\..\..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.0\libraries\SPI\SPI-2.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\..\..\..\Arduino\libraries\Adafruit_WS2801_Library\Adafruit_WS2801_Library-1.1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\..\..\..\Arduino\libraries\ArduinoJson\ArduinoJson-6.18.5.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\..\..\..\Arduino\libraries\arduino_557715\arduino_557715-2.5.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
 		..\..\..\..\Arduino\libraries\DallasTemperature\DallasTemperature-3.9.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
 		..\..\..\..\Arduino\libraries\OneWire\OneWire-2.3.5.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\..\..\..\Arduino\libraries\Adafruit_WS2801_Library\Adafruit_WS2801_Library-1.1.0.vcxitems*{ffe5adc0-d108-4fde-a050-266306e5e1a8}*SharedItemsImports = 9
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86

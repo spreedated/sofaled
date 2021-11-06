@@ -27,32 +27,67 @@
     <ClInclude Include="config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Bluetooth.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\EEPROM.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="src\Helper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\MQTT.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\OTA.h">
+    <ClInclude Include="libs\neXn.WiFi\neXn.WiFi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Serial.h">
+    <ClInclude Include="libs\neXn.WiFi\neXn.WiFi.Config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\WiFi.h">
+    <ClInclude Include="neXnEEPROM.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\WS2801.h">
+    <ClInclude Include="neXnSerial.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\DS18B20.h">
+    <ClInclude Include="neXnDS18B20.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="neXnOTA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="neXnBluetooth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="neXnWS2801.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="neXnMQTT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libs\neXn.WiFi\neXn.WiFi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\neXn.WiFi\neXn.WiFi.Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="neXnEEPROM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="neXnSerial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="neXnDS18B20.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="neXnOTA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="neXnBluetooth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="neXnWS2801.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="neXnMQTT.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

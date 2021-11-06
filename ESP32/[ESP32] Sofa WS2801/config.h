@@ -3,17 +3,10 @@
 
 //Node Information
 #if defined (_DEBUG)
-const char* nodeVersion = "1.5-DEBUG";
+const char* nodeVersion = "1.6-DEBUG";
 #else
-const char* nodeVersion = "1.5";
+const char* nodeVersion = "1.6";
 #endif
-
-//#define ENABLE_OTA
-#define ENABLE_WIFI
-#define ENABLE_BLUETOOTH
-#define ENABLE_SERIAL
-#define ENABLE_WS2801
-#define ENABLE_DS18B20
 
 //Serial
 const ulong SERIAL_BAUD = 115200;
@@ -38,6 +31,7 @@ const char* mqtt_password = "";
 const char* clientID = "nxn-nodeMCU-90";
 const char* capabilities[] = { "433", "WLAN", "MQTT", "OTA" };
 const char* commandlist[] = { "reset", "restart", "genuine", "original", "info", "information", "color"};
+const int pushIntervalAliveMessage = 60 * 1000; // 60 Seconds
 //# ### #
 
 //ArduinoOTA
@@ -47,7 +41,7 @@ const char* otaMD5Password = "1c9fcae7146273d7443f5b7eac02d56d";
 //# ### #
 
 //WS2801 Strip
-const int PixelCount = 160;
+const uint16_t PixelCount = 160;
 const uint8_t dataPin = 23;    // Yellow wire on Adafruit Pixels
 const uint8_t clockPin = 22;    // Green wire on Adafruit Pixels
 //# ### #
@@ -57,7 +51,7 @@ const char* BLUETOOTH_NAME = "Sofa LED";
 //# ### #
 
 //Temperature Sensor
-const int ONE_WIRE_BUS = 14;
+#define ONE_WIRE_BUS 14
 const float SHUTDOWN_TEMP_C = 45.0f;
 //# ### #
 
